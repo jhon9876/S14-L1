@@ -18,7 +18,7 @@ public class S14L1Application {
 		SpringApplication.run(S14L1Application.class, args);
 AnnotationConfigApplicationContext ctx= new AnnotationConfigApplicationContext(S14L1Application.class);
 
-Menu m= (Menu) ctx.getBean("menu");
+Menu m= (Menu) ctx.getBean("primo_menu");
 m.stampaMenu();
 
 

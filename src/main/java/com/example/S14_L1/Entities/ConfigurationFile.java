@@ -55,7 +55,7 @@ public class ConfigurationFile {
         return d;
 }
 
-@Bean
+@Bean(name="primo_menu")
     public Menu menu(){
     List<Toppings> t=new ArrayList<>();
     t.add(toppingMozzarella());
